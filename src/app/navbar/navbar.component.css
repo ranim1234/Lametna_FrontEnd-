@@ -1,0 +1,47 @@
+.logo {
+
+
+
+
+    color: #EBACA2;
+  
+  
+  
+  
+  } 
+  
+  .container{ 
+  
+  
+  background-color: white;
+  color:white;
+  
+  
+  }
+  .header{
+    color:#fc9c71 ;
+    background-color:#102e6b;
+  
+  
+  
+  }
+  .icon{
+      display: inline-block;
+      margin-top: 2px;
+
+
+
+
+  }
+  .username{
+      margin-top: 2px;
+  }
+  
+  /* rows */
+div.dropdown-multicol{
+  width: 30em;
+}
+div.dropdown-row>a.dropdown-item{
+  display:inline-block;
+  width: 32%;
+}

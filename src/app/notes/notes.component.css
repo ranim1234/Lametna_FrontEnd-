@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+* { box-sizing:border-box; }
+
+body { background:url(https://subtlepatterns.com/patterns/little_pluses.png) #cacaca; margin:30px; }
+
+#create,section textarea,  section section textarea  { 
+  float:left; 
+  padding:25px 25px 40px;
+  margin:40px 20px 20px 0;
+  width:260px;
+  height:260px; 
+  position: relative; 
+}
+
+
+#create:hover { border-color:rgba(0,0,0,0.2); color:rgba(0,0,0,0.2); }
+
+section section textarea,section textarea {
+  font:20px 'Gloria Hallelujah', cursive; 
+  line-height:1.5;
+  border:0;
+  border-radius:3px;
+  background: linear-gradient(#d2e9e1,#d2e9e1);
+  box-shadow:0 4px 6px rgba(0,0,0,0.1);
+  overflow:hidden;
+  transition:box-shadow 0.5s ease;
+  font-smooth:subpixel-antialiased;
+  max-width:520px;
+  max-height:250px;
+  position: relative;
+}
+section section  textarea:hover,section textarea:hover { box-shadow:0 5px 8px rgba(0,0,0,0.15); }
+section section textarea:focus,section textarea:focus { box-shadow:0 5px 12px rgba(0,0,0,0.2); outline:none; } 
+
+
+.add{ 
+ 
+  font-size: 30px;
+text-align: center;
+margin-top:60px ;
+margin-left: 750px;
+
+}
+
+
+#a{
+color: #fc9c71;
+text-align: right;
+text-shadow: 2px 2px #EBACA2  ;
+font: 'Gloria Hallelujah', cursive; 
+margin-left: 200px;
+
+
+}
+
+img {
+	width: 80px;
+	height: 80px;
+}
+div{
+  
+
+  height: 320px;
+  
+}
+
+
